@@ -4,7 +4,7 @@
 <head>
     <title>Acme Product Management</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <link href="app/app.component.css" rel="stylesheet" />
 
@@ -22,20 +22,21 @@
     <!-- 2. Configure SystemJS -->
     <script>
         System.config({
-        packages: {        
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/main')
+            packages: {
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/main')
             .then(null, console.error.bind(console));
     </script>
 </head>
 
 <body>
-    Starter files for Angular2: Getting Started.
+
+    <pm-app>Starter files for Angular2: Getting Started... </pm-app>
 </body>
 
 </html>
