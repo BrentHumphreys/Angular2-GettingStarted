@@ -1,0 +1,1 @@
+import {Component, OnInit, OnChanges, OnDestroy} from 'angular2/core';
